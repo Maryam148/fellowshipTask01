@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding-top: 5px;
+    padding-left: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+ul.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.menu li {
+    display: inline-block;
+}
+ul.menu li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+ul.menu li a:hover{
+    background-color: rgb(70, 65, 65);
+}
+.icon-1{
+    padding-right: 10px;
+}
+.icon-2{
+    padding-right: 10px;
+}
+.main{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 160, 149);
+    height: 230px;
+    padding-top: 35px;
+    
+}
+h1 {
+    color: white;
+    
+}
+span{
+    color: rgb(221, 17, 51);
+}
+.element1{
+    font-size: 17px;
+    color: black;
+    font-weight: bolder;
+    
+}
+#btn1{
+    background-color: rgb(221, 17, 51);
+    color:white;
+    border: none;
+    border-radius: 16px;
+    padding: 10px;
+}
+.whyUs{
+    height: fit-content;
+    text-align: center;
+}
+.heading2{
+    padding-top: 25px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.chooseUsFlex{
+    display:flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    padding-top: none;
+    flex-wrap: wrap;
+}
+h2{
+    padding-top: 20px;
+    font-size: large;
+    font-weight:bold;
+}
+.avg{
+    font-size: 18px;
+    font-weight: 500;
+    color:  rgb(221, 17, 51);
+}
+.shipping, .money, .support{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 20px;
+}
+.products{
+    background-color: rgb(160, 160, 149);
+    text-align: center;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.upperFlex .sale p{
+    font-weight: bold;
+    font-size: large;
+}
+.upperFlex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 110px;
+    padding-right: 110px; 
+}
+
+.upTo{
+    background-color: rgb(221, 17, 51);
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    padding: 0px;
+    margin:0px;
+}
+.btn2{
+    border-bottom: none;
+    border-top: none;
+    border-radius: 16px;
+    text-align: center;
+    padding: 5px;
+}
+.pricingTable{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    justify-content: center;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+.frag img{
+    height: 300px;
+    width: 270px;
+    border-radius: 8px;
+}
+.pricingTable .frag div p{
+    font-weight: bolder;
+    font-size: 15px;
+    float:left;
+}
+.priceFlex{
+    display: flex;
+    justify-content: space-between;   
+}
+.priceFlex div p{
+    color: rgb(221, 17, 51);
+    padding-top: 0;
+    margin-top: 0;    
+}
+.cart{
+    border: none;
+    background-color: rgb(221, 17, 51);
+    border-radius: 16px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.frag{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.footer{
+    background-color: black;
+}
+.footEle1{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 25px;
+}
+.footEle1 ul{
+    list-style-type: none;
+}
+.footEle1 ul li{
+    display: inline-block;
+}
+.footer .footEle1 ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+}
+.footer .footEle1 ul li a:hover{
+    background-color: rgb(70, 65, 65);
+}
+.footEle2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footEle2 ul{
+    list-style-type: none;
+}
+.footEle2 ul li{
+    display: inline-block;
+    padding: 10px 10px;
+}
+.footer .footEle3{
+    text-align: center;
+    color:white;
+    padding-bottom: 10px;
+    
+}
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+
